@@ -1,0 +1,47 @@
+/* Servano AS — Design tokens
+   © Haut Forvalting AS — Org.nr: 931603760 */
+
+:root {
+  --color-bg:        #F7F8FA;
+  --color-surface:   #FFFFFF;
+  --color-accent:    #C8102E;
+  --color-accent-soft: rgba(200, 16, 46, 0.08);
+  --color-accent-glow: rgba(200, 16, 46, 0.15);
+  --color-support:   #F0F2F5;
+  --color-border:    #E4E7EC;
+  --color-text:      #111827;
+  --color-muted:     #6B7280;
+  --color-navy:      #1B2D6B;
+  --color-navy-soft: rgba(27, 45, 107, 0.06);
+  --color-blue:      #1B6CA8;
+  --color-success:   #22C55E;
+
+  --color-hero-bg-start: #0D1B3E;
+  --color-hero-bg-end:   #1B2D6B;
+  --color-hero-text:     #FFFFFF;
+  --color-hero-muted:    #A3B4CC;
+  --color-hero-grid:     #1F3575;
+
+  /* Shadows */
+  --shadow-sm:   0 1px 3px rgba(0, 0, 0, 0.06),
+                 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md:   0 4px 16px rgba(0, 0, 0, 0.08),
+                 0 2px 6px rgba(0, 0, 0, 0.04);
+  --shadow-lg:   0 12px 40px rgba(0, 0, 0, 0.10),
+                 0 4px 12px rgba(0, 0, 0, 0.06);
+  --shadow-accent: 0 8px 32px rgba(200, 16, 46, 0.18);
+  --shadow-navy:   0 8px 32px rgba(27, 45, 107, 0.15);
+
+  /* Motion */
+  --ease-out:    cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration-fast: 200ms;
+  --duration-mid:  400ms;
+  --duration-slow: 700ms;
+
+  --dur-std:   600ms;
+  --dur-svg:   1200ms;
+  --stagger:   80ms;
+
+  --nav-height: 64px;
+}

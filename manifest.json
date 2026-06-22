@@ -1,0 +1,18 @@
+{
+  "name": "Servano AS",
+  "short_name": "Servano",
+  "description": "Sertifisert VVS, service og sprinkler i Bergen sør",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F8FA",
+  "theme_color": "#1B2D6B",
+  "lang": "no",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
